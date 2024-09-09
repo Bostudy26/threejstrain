@@ -3,10 +3,11 @@ import * as THREE from 'three';
 
 // 1. Create the scene
 const scene = new THREE.Scene();
+// background color
 scene.background = new THREE.Color('#D4CFE3');
 
 // 2. Add the camera
-const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+const camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 0.1, 1000 );
 camera.position.z = 5;
 
 // 3. Create and add a cube object
